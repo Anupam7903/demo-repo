@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .container{
+            width: 900px;
+            border: 3px solid rgb(207, 108, 207);
+            margin: 33px auto;
+        }
+        #heading{
+            padding: 33px 33px;
+            /*border: 5px solid red;*/
+            margin: 33px auto;
+            text-align: center;
+        }
+        .item{
+            border: 3px solid rgb(196, 147, 147);
+            margin: 12px 3px;
+            padding: 12px 10px;
+            background: skyblue;
+        }
+        #Fruits{
+            float: left;
+            width: 48%;
+           /* clear: right;*/
+           text-align: justify;
+
+        }
+        #computer{
+            float: left;
+            width: 48%;
+            text-align:justify;
+
+        }
+        #stationary{
+            float: left;
+            width: 96%;
+
+        }
+        #store{
+            margin: auto;
+            width: 900px;
+        }
+ 
+
+    </style>
+       
+
+</head>
+<body>
+    <div id="heading">
+    <h2>Welcome to my Store</h2>
+    </div>
+    <div class="container">
+        <h3 id="store">Items available in store</h3>
+        <div id="Fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="Fruits" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi cum expedita minima facilis nemo doloremque mollitia, hic nobis deserunt? Fuga deserunt nulla exercitationem voluptatibus magni officiis velit molestiae, libero molestias quam iusto, reprehenderit, necessitatibus obcaecati?
+            </p>    
+        </div>    
+            
+        <div id="computer" class="item">
+                 <h3>computer</h3>
+               <p id="computer" class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi cum expedita minima facilis nemo doloremque mollitia, hic nobis deserunt? Fuga deserunt nulla exercitationem voluptatibus magni officiis velit molestiae, libero molestias quam iusto, reprehenderit, necessitatibus obcaecati?</p>
+         </div>   
+         <div id="stationary" class="item">
+                 <h3>stationary</h3>
+                <p id="stationary" class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi cum expedita minima facilis nemo doloremque mollitia, hic nobis deserunt? Fuga deserunt nulla exercitationem voluptatibus magni officiis velit molestiae, libero molestias quam iusto, reprehenderit, necessitatibus obcaecati?</p>
+        </div>
+    </div>
+</body>
+</html>
